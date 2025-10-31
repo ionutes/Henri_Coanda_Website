@@ -24,7 +24,7 @@ Scopul proiectului a fost **dezvoltarea competențelor privind arhitectura web**
 ## ✍️ Autor
 👤 **Dragotoniu Ionuț-Constantin**  
 🏫 **Colegiul Național "Gheorghe Țițeica"**  
-👨‍🏫 **Profesor coordonator:**Rodica Crețescu  
+👨‍🏫 **Profesor coordonator:** Rodica Crețescu  
 📅 **An școlar:** 2023–2024  
 
 ---
