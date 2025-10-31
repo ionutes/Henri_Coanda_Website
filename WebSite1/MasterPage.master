@@ -1,0 +1,231 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        li{
+            border-radius:15px;
+        }
+        html
+        {     
+            text-shadow:2px 2px #4b2e18;
+            scroll-behavior: smooth;
+        }
+        #butonUrcare
+        {
+            background-image:url(Imagini/buton-dropdown-2.jpg);
+            border-radius: 18px;
+        }
+        #butonUrcare:hover
+        {
+            background-image:url("Imagini/buton-highlight.jpg");
+            border-radius: 18px;
+        }
+        ::-webkit-scrollbar {
+          width: 10px;
+        }
+        ::-webkit-scrollbar-track {
+          background: #4b2e18;
+        }
+        ::-webkit-scrollbar-thumb {
+          background: #9a6f45;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+          background: #a27548 ;
+        }
+        img{
+            border-radius: 50px;
+        }
+        h1{
+            border-radius: 50px;
+        }
+        p{
+            border-radius: 18px 18px 18px 10px;
+        }
+        body
+        {
+            font-family:'Times New Roman','Verdana','Adobe Caslon Pro';
+            font-size:20pt;
+            background-image:url("Imagini/desktop-1600x900.jpg");
+            background-size:1800px;
+            position:absolute;
+            left:420px;
+            text-align:center;
+            color:antiquewhite;
+            border-radius: 15px;
+        }
+                *
+        {
+                    
+            margin: 0px;
+            padding: 0px;
+        }
+		
+        #menu ul
+        {
+            border-radius: 15px;
+            list-style:none;
+            font-family:'Times New Roman','Verdana','Adobe Caslon Pro';
+            font-size:15pt;
+            background-image:url("Imagini/tim-mossholder-J0sMjGu6jvQ-unsplash.jpg")
+        }
+        #menu ul li
+        {
+            margin-right:3px;
+            border-radius: 15px;
+            background-color:saddlebrown;
+            width:auto;
+            height:auto;
+            line-height:35px;
+            text-align:center;
+            float:left;
+            position:relative; 
+            text-align:center;
+            color:burlywood;
+            top: 0px;
+            left: 3px;
+            background-image:url("Imagini/Screenshot_1%20-%20Copy.png")
+        }
+        #menu ul li a
+        {
+            margin-left:-3px;
+            text-decoration:none;
+            color:burlywood;
+            display:block;
+            width: 235px;
+            background-image:url("Imagini/buton-dropdown-2.jpg");
+            height: 34px;
+        }
+        #menu ul li.b a
+        {
+            border-radius: 15px 0px 0px 15px;
+        }
+        #menu ul li.d a
+        {
+            border-radius: 0px 0px 15px 15px;
+        }
+        #menu ul li.e a
+        {
+            border-radius: 0px 0px 15px 15px;
+        }
+         #menu ul li.c a
+        {
+            border-radius: 0px 15px 15px 0px;
+        }
+        
+          #menu ul li.c ul li 
+        {
+            border-radius: 0px 0px 0px 0px;
+            margin-right:-50px;
+        }
+        #menu ul li a:hover
+        {
+            
+            background-color:antiquewhite;
+            background-image:url("Imagini/buton-highlight.jpg");
+        }
+        #menu ul ul 
+        {
+            
+            position : absolute;
+            display:none;
+            background-image:url("Imagini/Screenshot_1%20-%20Copy.png");
+        }
+        #menu ul li:hover>ul
+        {
+            
+            display:block;
+            background-image:url("Imagini/buton-highlight.jpg");
+        }
+        td.auto-style1{
+            border-radius: 15px;
+        }
+        
+
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table style="width:958px; margin-right:350px; height: 611px;border-radius: 15px;margin-top:15px;">
+            <tr style="width:1100px;height:50px;border:1px solid white;border-radius: 15px;">
+                <td style="background-image:url(Imagini/Screenshot_1%20-%20Copy.png);border-radius: 15px; font-style:italic;text-align:center;font: bold 35px times new roman, verdana;font-style:italic;color:burlywood;background-color:saddlebrown" class="auto-style1">
+                    <a href="index.aspx" style="text-decoration:none;">
+                        <p style="color:burlywood;border-radius: 15px;">
+                            Proiect atestat  -  Henri Coandă
+                        </p>
+                    </a>
+                </td>
+            </tr>
+            <tr style="width:1100px;height:40px;border-radius: 15px;">
+                <td style="border-radius: 15px;"; id="menu";colspan="3" class="auto-style1">
+                    <ul>
+                        <li class="b"><a href="Prezentare_Generala.aspx";id="a1">Prezentare generala</a></li>
+                        <li><a href="#">Proiecte principale</a>
+                            <ul>
+                                <li><a href="Coanda_1910.aspx">Avionul Coanda-1910</a></li>
+                                <li><a href="Efectul_Coanda.aspx">Efectul Coanda</a></li>
+                                <li><a href="Aerodina_Lenticulara.aspx">Aerodina lenticulara</a></li>
+                                <li><a href="Aerotubexpres.aspx">Aerotubexpres</a></li>
+                                <li class="d"><a href="Delta.aspx">Delta</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Proiecte secundare</a>
+                            <ul>
+
+                                <li><a href="Beton_Lemn.aspx">Beton-lemn</a></li>
+                                <li><a href="Bloc_Piramida.aspx">Bloc piramida</a></li>
+                                <li><a href="Bristol_Coanda.aspx">Bristol-Coanda</a></li>
+                                <li><a href="Desalinizarea_Apei.aspx">Desalinizarea apei</a></li>
+                                <li><a href="Detectare_Lichide.aspx">Detectare lichide sub sol</a></li>
+                                <li><a href="Sanie_motor_cu_reactie.aspx">Sanie cu motor cu reactie</a></li>
+                                <li><a href="Cisterna_Beton.aspx">Cisterna din beton</a></li>
+                                <li class="e"><a href="Portanta_aerului.aspx">Portanta aerului</a></li>
+                            </ul>
+                        </li>
+                        <li class="c"><a href="#">Extra</a>
+                        <ul>
+                            <li><a href="JOC.exe">Joculet</a></li>
+                            <li ><a href="Surse_Info.aspx">Surse de informatii</a></li>
+                        </ul>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr style="width:1100px">
+                <td colspan="3"; style="text-align:center;color:burlywood;background-image:url(Imagini/Screenshot_1%20-%20Copy.png);" class="auto-style1">
+                    
+                    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                        <em style="font-family:'Times New Roman','Verdana','Adobe Caslon Pro';">
+                            "Henri coanda, creatorul primului avion"
+                        </em>
+                        <p>
+                            <img src="Imagini/360_F_187263948_KkqA9RNdH5SD9pOUkbbs2DfYizgy6xJG.jpg"; style="width: 803px; height: 594px;"/>
+                        </p>
+                    </asp:ContentPlaceHolder>
+                    
+                    
+                </td>
+            </tr>
+            <tr style="width:1100px;height:20px">
+                <td colspan="3"; style="font-family:'Times New Roman','Verdana','Adobe Caslon Pro';font-style:italic;text-align:center;color:burlywood;" class="auto-style1">
+                    <p style="background-image:url(Imagini/Screenshot_2.png);">  
+                           ‎‎‎‎‎‎  
+                    </p>
+                    <p style="background-image:url(Imagini/Screenshot_1%20-%20Copy.png);border-radius:15px 15px 0px 0px;">
+                        Atestat realizat cu ajutorul prof. coordonator : Rodica Crețescu
+                    </p>
+                    <p style="background-image:url(Imagini/Screenshot_1%20-%20Copy.png);border-radius:0px 0px 15px 15px;">
+                        Proiect realizat de catre : Dragotoniu Ionuț-Constantin
+                    </p>
+                </td>
+            </tr>
+        </table>
+    
+    </form>
+</body>
+</html>

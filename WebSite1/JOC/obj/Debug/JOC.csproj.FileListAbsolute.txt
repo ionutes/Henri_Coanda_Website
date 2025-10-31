@@ -1,0 +1,18 @@
+D:\12F\JOC\JOC\JOC\bin\Debug\JOC.exe.config
+D:\12F\JOC\JOC\JOC\obj\Debug\JOC.csprojResolveAssemblyReference.cache
+D:\12F\JOC\JOC\JOC\obj\Debug\JOC.Form1.resources
+D:\12F\JOC\JOC\JOC\obj\Debug\JOC.Properties.Resources.resources
+D:\12F\JOC\JOC\JOC\obj\Debug\JOC.csproj.GenerateResource.Cache
+D:\12F\JOC\JOC\JOC\bin\Debug\JOC.exe
+D:\12F\JOC\JOC\JOC\bin\Debug\JOC.pdb
+D:\12F\JOC\JOC\JOC\obj\Debug\JOC.exe
+D:\12F\JOC\JOC\JOC\obj\Debug\JOC.pdb
+E:\Informatica\Visual Studio\ATESTAT\JOC\JOC\JOC\JOC\bin\Debug\JOC.exe.config
+E:\Informatica\Visual Studio\ATESTAT\JOC\JOC\JOC\JOC\obj\Debug\JOC.exe
+E:\Informatica\Visual Studio\ATESTAT\JOC\JOC\JOC\JOC\obj\Debug\JOC.pdb
+E:\Informatica\Visual Studio\ATESTAT\JOC\JOC\JOC\JOC\bin\Debug\JOC.exe
+E:\Informatica\Visual Studio\ATESTAT\JOC\JOC\JOC\JOC\bin\Debug\JOC.pdb
+E:\Informatica\Visual Studio\ATESTAT\JOC\JOC\JOC\JOC\obj\Debug\JOC.csprojResolveAssemblyReference.cache
+E:\Informatica\Visual Studio\ATESTAT\JOC\JOC\JOC\JOC\obj\Debug\JOC.Form1.resources
+E:\Informatica\Visual Studio\ATESTAT\JOC\JOC\JOC\JOC\obj\Debug\JOC.Properties.Resources.resources
+E:\Informatica\Visual Studio\ATESTAT\JOC\JOC\JOC\JOC\obj\Debug\JOC.csproj.GenerateResource.Cache
